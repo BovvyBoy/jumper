@@ -1,5 +1,5 @@
-import boatup from './images/boat_NW.png'
-import boatdown from './images/boat_SE.png'
+import boatUp from './images/boat_NW.png'
+import boatDown from './images/boat_SE.png'
 import frogNE from './images/frog_NE.png'
 import frogNW from './images/frog_NW.png'
 import frogSE from './images/frog_SE.png'
@@ -18,8 +18,8 @@ import waterGrassBelow from './images/water_grass_below.png'
 import frogDead from './images/skull.png'
 
 export {
-    boatup,
-    boatdown,
+    boatUp,
+    boatDown,
     frogNE,
     frogNW,
     frogSE,
