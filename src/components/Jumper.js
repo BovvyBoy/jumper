@@ -8,3 +8,5 @@ function Jumper() {
         </>
     )
 }
+
+export default Jumper
