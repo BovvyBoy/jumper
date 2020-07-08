@@ -1,12 +1,14 @@
-import React from 'react'
+import React from "react";
 
 function Tile({ src, x, y, z }) {
-    return <img 
-        scr={src}
-        className="tile"
-        style={{ left: `${x}%`, top: `${y}%`, zIndex: z }}
-        alt="tile for landscape"
+  return (
+    <img
+      alt="piece of landscape"
+      className="tile"
+      style={{ left: `${x}%`, top: `${y}%`, zIndex: z }}
+      src={src}
     />
+  );
 }
 
-export default Tile
+export default Tile;
